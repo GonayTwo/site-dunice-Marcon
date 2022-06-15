@@ -1,0 +1,129 @@
+.all{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+
+}
+
+.background{
+    background-image: url("/img/2623583-abstrato-preto-forma-geometrica-fundo-com-linha-diagonal-textura-design-para-apresentacao-banner-capa-web-folheto-cartao-poster-jogo-textura-slide-e-powerpoint-ilustrac.jpg");
+    background-size: cover;
+    height: 30cm;    
+    width: 100%;
+
+}
+
+.rodape{
+    width: 100%;
+    max-width: 380px;
+    height: 8.5cm;
+}
+
+.face{
+    position: relative;
+    top: 86%;
+    font-size: 20px;
+}
+
+.insta{
+    position: relative;
+    top: 78.5%;
+    left: 6%;
+    font-size: 20px;
+}
+
+.link{
+    position: relative;
+    top: 70.5%;
+    left: 13%;
+    font-size: 21px;
+}
+
+.logo img{
+    position: absolute;
+    top: 0%;
+    max-width: 250px;
+}
+
+.textrodape{
+    width: 100%;
+    max-width: 255px;
+    position: relative;
+    top: 3cm;
+    color: white;
+    font-size: 13px;
+
+}
+
+.line{
+    border-left: 1px solid white;
+    height: 245px;
+    margin: 0 20px 0 0;
+}
+
+.flex-container{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.coluna1{
+    color: white;
+    max-width: 200px;
+    box-sizing: border-box;
+
+    margin: 0 20px 0 10px ;
+}
+
+.opcoes1{
+    line-height: 0.7;
+    color: white;
+    opacity: 75%;
+}
+
+.coluna2{
+    color: white;
+    max-width: 250px;
+    box-sizing: border-box;
+
+}
+
+.direcionamento{
+    opacity: 75%;
+}
+
+.edificio{
+    opacity: 75%;
+}
+
+.phone{
+    color: white;
+}
+
+.numero{
+    color: white;
+    font-size: 25px;
+
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin: 0 10px 0 0; 
+}
+
+.horizontal{
+    border-bottom: 1px solid grey;
+    opacity: 50%;
+    max-width: 28cm;
+    margin-left: 8.05cm;
+}
+
+
+.copyright{
+    font-size: 11px;
+    text-align: center;
+    color: grey;
+    opacity: 40%;
+}

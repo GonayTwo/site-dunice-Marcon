@@ -1,8 +1,9 @@
 import React from "react";
+import Footer from "../Footer/Footer.jsx";
 
 const PaginaInicial = () =>(
     <main>
-        <h1>teste</h1>
+        <Footer/>
     </main>
 );
 export default PaginaInicial;
