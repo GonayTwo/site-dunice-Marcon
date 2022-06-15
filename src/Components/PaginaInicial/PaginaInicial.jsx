@@ -1,8 +1,9 @@
 import React from "react";
+import TopMenu from "../TopMenu/TopMenu";
 
 const PaginaInicial = () =>(
     <main>
-        <h1>teste</h1>
+        <TopMenu/>
     </main>
 );
 export default PaginaInicial;
