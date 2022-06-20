@@ -4,6 +4,9 @@
 .texto__cinza{
     color: #57585A;
 }
+.borda__vermelha{
+    border-bottom: 2px solid #B00F14;
+}
 
 .containerHome{
     background-image: url('../../../public/img/bannerEditado.jpg');
@@ -46,9 +49,6 @@
 .containerComunicacao__h2{
     font-size: 2rem;
 }
-.containerComunicacao span{
-    border-bottom: 2px solid #B00F14;
-}
 .containerComunicacao__grid{
     display: grid;
     grid-template-columns: 450px 450px;
@@ -78,7 +78,7 @@
     border-radius: 50%;
     background: #B00F14;
     display: flex;
-    align-items: center;   
+    align-self: center;   
 }
 .containerComunicacao__meiosContato-icone:hover{
     background: white;
@@ -98,7 +98,6 @@
     background-image: url('../../../public/img/bg-nego-1-1024x265.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
     display: flex;
     justify-content: space-between;
 }
@@ -117,15 +116,47 @@
     left: 150px;
     font-weight: bold;
     text-transform: uppercase;
-    border: 2px solid #B00F14;
+    border: 2px solid white;
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    background: #57585A;
+    background: #B00F14;
     padding: 1.3rem;
-
 }
+
 .containerParceiros__imagem-btn:hover{
+    border: 3px solid #B00F14;
     background: white;
     color: #B00F14;
+}
+
+.containerLocalizacao h1{
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    margin: 80px 0 100px 0;
+    text-transform: uppercase;
+}
+.containerLocalizacao__item{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 200px;
+}
+.containerLocalizacao__item-texto{
+    grid-column: 2;
+}
+
+.containerLocalizacao__item-texto h2{
+    font-family: 'IBM Plex Mono', monospace;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+.containerLocalizacao__item-texto p{
+    width: 250px;
+    font-size: 1.5rem;
+    line-height: 42px;
+    
+}
+.containerLocalizacao__item-mapa{
+    grid-column: 3;
 }
