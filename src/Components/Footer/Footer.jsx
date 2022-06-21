@@ -9,8 +9,8 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => (
     <footer>
-    <div className="background">
-        <div className="all">
+    <div className="all">
+        <div className="background">
             <div className="flex-container">
 
                 <div className="rodape">
@@ -47,9 +47,9 @@ const Footer = () => (
                     <div className="contato"><h2>CONTATO</h2></div>
 
                     <div className="email"><p>Email:</p></div>
-                    <div className="direcionamento"><p>direcionamentos@dunice.adv.br</p></div>
+                    <div className="direcionamento"><a href="mailto:direcionamentos@dunice.adv.br">direcionamentos@dunice.adv.br</a></div>
                     <div className="endereco"><p>Endereço Matriz:</p></div>
-                    <div className="edificio"><p>Edifício Palácio do Comércio - Setor Comercial Sul Q.2 Bloco B Sobreloja - Asa Sul Brasília DF - CEP: 70318-900</p></div>
+                    <div className="edificio"><a href="https://www.google.com/maps/place/Edifício+Palácio+do+Comércio/@-15.7991148,-47.8885115,19z/data=!3m1!4b1!4m5!3m4!1s0x935a3bcced8175fb:0xe0f72a1418353dbf!8m2!3d-15.7991161!4d-47.8879643">Edifício Palácio do Comércio - Setor Comercial Sul Q.2 Bloco B Sobreloja - Asa Sul Brasília DF - CEP: 70318-900</a></div>
                 </div>        
 
                 <div className="phone">     

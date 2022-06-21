@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    background:transparent;
+    position: fixed;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container.ativo{
+    background: white;
+}
+.container.ativo .container__paragrafo{
+    color: black;
+}
+
+.container__logo{
+    height: 100px;
+    width: 100px;
+}
+.container__lista{
+    display: flex;
+}
+.container__lista-item{
+    list-style: none;
+}
+.container__lista-item a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Mono';
+    font-weight: bold;
+    padding: 35px 10px;
+}
+.container.ativo .container__lista-item a{
+    color: black;
+    text-decoration: none;
+}

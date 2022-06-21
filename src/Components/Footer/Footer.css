@@ -1,16 +1,13 @@
 .all{
-   position: absolute;
-   bottom: 0;
-   width: 100%;
-
+    position: fixed;
+    top: 14cm;
+    width: 100%;
 }
 
 .background{
     background-image: url("/img/2623583-abstrato-preto-forma-geometrica-fundo-com-linha-diagonal-textura-design-para-apresentacao-banner-capa-web-folheto-cartao-poster-jogo-textura-slide-e-powerpoint-ilustrac.jpg");
-    background-size: cover;
-    height: 30cm;    
+    background-size: cover;  
     width: 100%;
-
 }
 
 .rodape{
@@ -23,6 +20,15 @@
     position: relative;
     top: 86%;
     font-size: 20px;
+    max-width: 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.face:hover{
+    color: #B00F14;
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 .insta{
@@ -30,6 +36,15 @@
     top: 78.5%;
     left: 6%;
     font-size: 20px;
+    cursor: pointer;
+    color: white;
+    max-width: 17px;
+}
+
+.insta:hover{
+    color: #B00F14;
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 .link{
@@ -37,11 +52,20 @@
     top: 70.5%;
     left: 13%;
     font-size: 21px;
+    max-width: 18px;
+    cursor: pointer;
+    color: white;
+}
+
+.link:hover{
+    color: #B00F14;
+    transition: 0.5s;
+    opacity: 0.7;
 }
 
 .logo img{
     position: absolute;
-    top: 0%;
+    top: 6%;
     max-width: 250px;
 }
 
@@ -49,7 +73,7 @@
     width: 100%;
     max-width: 255px;
     position: relative;
-    top: 3cm;
+    top: 3.2cm;
     color: white;
     font-size: 13px;
 
@@ -57,8 +81,8 @@
 
 .line{
     border-left: 1px solid white;
-    height: 245px;
-    margin: 0 20px 0 0;
+    height: 155px;
+    margin: 58px 10px 0 0;
 }
 
 .flex-container{
@@ -82,6 +106,83 @@
     opacity: 75%;
 }
 
+.home{
+    cursor: pointer;
+    color: white;
+    max-width: 50px;
+}
+
+.home:hover{
+    transform: scaleX(1.04);
+    color: #B00F14 ;
+}
+
+.qmsomos{
+    cursor: pointer;
+    color: white;
+    max-width: 100px;
+}
+
+.qmsomos:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
+.clientes{
+    cursor: pointer;
+    color: white;
+    max-width: 70px;
+}
+
+.clientes:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
+.parceiros{
+    cursor: pointer;
+    color: white;
+    max-width: 85px;
+}
+
+.parceiros:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
+.trabalhe{
+    cursor: pointer;
+    color: white;
+    max-width: 180px;
+}
+
+.trabalhe:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
+.localizador{
+    cursor: pointer;
+    color: white;
+    max-width: 130px;
+}
+
+.localizador:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
+.negocie{
+    cursor: pointer;
+    color: white;
+    max-width: 85px;
+}
+
+.negocie:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
 .coluna2{
     color: white;
     max-width: 250px;
@@ -90,11 +191,26 @@
 }
 
 .direcionamento{
+    color: white;
     opacity: 75%;
+    cursor: pointer;
+    max-width: 205px;
+}
+
+.direcionamento a{
+    text-decoration: none;
+    color: white;
 }
 
 .edificio{
     opacity: 75%;
+    cursor: pointer;
+    color: white;
+}
+
+.edificio a{
+    text-decoration: none;
+    color: white;
 }
 
 .phone{
@@ -126,4 +242,57 @@
     text-align: center;
     color: grey;
     opacity: 40%;
+    border: 1px solid transparent;
+}
+
+@media (max-width: 720px){
+    .logo{
+        display: none;
+        max-width: 0px;
+    }
+
+    .textrodape{
+        display: none;
+    }
+
+    .numero{
+        margin: 0 50px 0 0;
+    }
+
+    .coluna2{
+        margin: 0 50px 0 0;
+    }
+
+    .coluna1{
+        margin: 0 100px 0 0;
+    }
+
+    .face{
+        left: 100%;
+        top: 82%;
+    }
+
+    .insta{
+        left: 140%;
+        top: 75%;
+    }
+
+    .link{
+        left: 180%;
+        top: 67%;
+    }
+
+    .trabalhe{
+        line-height: 15px;
+    }
+
+    .localizador{
+        line-height: 15px;
+    }
+
+    .localizador p{
+        margin-top: 0;
+    }
+
+
 }
