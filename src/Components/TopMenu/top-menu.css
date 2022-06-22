@@ -6,6 +6,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, .5);
 }
 
 .container.ativo{
@@ -16,6 +18,12 @@
 }
 
 .container__logo{
+    height: 70px;
+    width: 90px;
+    padding: 0 30px;
+    border-right: 1px solid rgba(255,255,255,.5);
+}
+.container.ativo .container__logo{
     height: 100px;
     width: 100px;
 }
@@ -29,11 +37,17 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-family: 'IBM Plex Mono';
+    font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
     padding: 35px 10px;
+}
+.container__lista-item a:hover{
+    color: #B00F14;
 }
 .container.ativo .container__lista-item a{
     color: black;
     text-decoration: none;
+}
+.container.ativo .container__lista-item a:hover{
+    color: #B00F14;
 }

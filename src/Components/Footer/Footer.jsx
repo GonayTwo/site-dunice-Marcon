@@ -4,6 +4,7 @@ import { BsTelephone } from 'react-icons/bs';
 import { FaFacebookF } from 'react-icons/fa';
 import { GrInstagram } from 'react-icons/gr';
 import { FaLinkedinIn } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,13 +15,19 @@ const Footer = () => (
             <div className="flex-container">
 
                 <div className="rodape">
-                    <div className="face"><FaFacebookF></FaFacebookF></div>
-                    <div className="insta"><GrInstagram></GrInstagram></div>
-                    <div className="link"><FaLinkedinIn></FaLinkedinIn></div>
-                    <div className="logo">
-                        <img src="/img/cropped-DuniceLogo_Transparente-1.png" alt=""/>
-                    </div>
+
+                    <img src="/img/cropped-DuniceLogo_Transparente-1.png" alt=""/>
+
                 <p className="textrodape">Empresa criada em 2010 com intuito de prestar serviços de cobrança.</p>
+
+                    <div className="redes">
+
+                    <div className="face" href="https://www.facebook.com/dunice.marcon.7"><FaFacebookF></FaFacebookF></div>
+                    <div className="insta"><a><GrInstagram></GrInstagram></a></div>
+                    <div className="link"><a><FaLinkedinIn></FaLinkedinIn></a></div>
+
+                    </div>
+
                 </div>
 
                 <div className="line"></div>
@@ -31,13 +38,13 @@ const Footer = () => (
 
                     <div className="opcoes1">
 
-                        <div className="home" ><p>HOME</p></div>
-                        <div className="qmsomos" ><p>QUEM SOMOS</p></div>
-                        <div className="clientes" ><p>CLIENTES</p></div>
-                        <div className="parceiros" ><p>PARCEIROS</p></div>
-                        <div className="trabalhe" ><p>TRABALHE CONOSCO</p></div>
-                        <div className="localizador" ><p>APP LOCALIZADOR</p></div>
-                        <div className="negocie" ><p>NEGOCIE JÁ</p></div>    
+                        <div className="home" ><Link to='/'>HOME</Link></div>
+                        <div className="qmsomos" ><a>QUEM SOMOS</a></div>
+                        <div className="clientes" ><a>CLIENTES</a></div>
+                        <div className="parceiros" ><a href="http://localhost:3000/partners">PARCEIROS</a></div>
+                        <div className="trabalhe" ><a>TRABALHE CONOSCO</a></div>
+                        <div className="localizador" ><a href="https://drive.google.com/uc?id=1C0hZCAjZidVvSDvfH-B8eiAuqTgnPRsH&export=download">APP LOCALIZADOR</a></div>
+                        <div className="negocie" ><a href="#comunicacao">NEGOCIE JÁ</a></div>    
 
                     </div> 
 
