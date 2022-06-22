@@ -1,0 +1,331 @@
+.flex-container{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.background{
+    background-image: url("../../../public/img/2623583-abstrato-preto-forma-geometrica-fundo-com-linha-diagonal-textura-design-para-apresentacao-banner-capa-web-folheto-cartao-poster-jogo-textura-slide-e-powerpoint-ilustrac.jpg");
+    background-size: cover; 
+}
+
+.rodape{
+    width: 100%;
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rodape img{
+    margin: 56px 0 10px 0;
+    max-width: 230px;
+}
+
+.redes{
+    display: flex;
+}
+
+.face{
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.face:hover{
+    color: #B00F14;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.insta{
+    margin-left: 3px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.insta:hover{
+    color: #B00F14;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.link{
+    margin-left: 6px;
+    font-size: 21px;
+    cursor: pointer;
+    color: white;
+}
+
+.link:hover{
+    color: #B00F14;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.textrodape{
+    max-width: 255px;
+    color: white;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+.line{
+    border-left: 1px solid white;
+    height: 137px;
+    margin: 108px 10px 0 0;
+}
+
+
+
+.coluna1{
+    color: white;
+    max-width: 200px;
+    box-sizing: border-box;
+
+    margin: 53px 20px 0 10px ;
+}
+
+.opcoes1{
+    margin-top: 25px;
+    line-height: 1.5;
+    color: white;
+    opacity: 75%;
+}
+
+.home{
+    cursor: pointer;
+    color: white;
+    max-width: 50px;
+}
+
+.home:hover{
+    transform: scaleX(1.04);
+}
+
+.home a{
+    color: white;
+    text-decoration: none;
+}
+
+.home a:hover{
+    color: #B00F14 ;
+}
+
+.qmsomos{
+    cursor: pointer;
+    color: white;
+    max-width: 100px;
+}
+
+.qmsomos:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
+.clientes{
+    cursor: pointer;
+    color: white;
+    max-width: 70px;
+}
+
+.clientes:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
+.parceiros{
+    cursor: pointer;
+    color: white;
+    max-width: 85px;
+}
+
+.parceiros:hover{
+    transform: scaleX(1.04);
+}
+
+.parceiros a:hover{
+    color: #B00F14;
+}
+
+.parceiros a{
+    text-decoration: none;
+    color: white; 
+}
+
+.trabalhe{
+    cursor: pointer;
+    color: white;
+    max-width: 180px;
+}
+
+.trabalhe:hover{
+    transform: scaleX(1.04);
+    color: #B00F14;
+}
+
+.localizador{
+    cursor: pointer;
+    color: white;
+    max-width: 130px;
+}
+
+.localizador:hover{
+    transform: scaleX(1.04);
+}
+
+.localizador a:hover{
+    color: #B00F14;
+}
+
+.localizador a{
+    text-decoration: none;
+    color: white;
+}
+
+.negocie{
+    cursor: pointer;
+    color: white;
+    max-width: 85px;
+}
+
+.negocie a{
+    text-decoration: none;
+    color: white;
+}
+
+.negocie:hover{
+    transform: scaleX(1.04);
+}
+
+.negocie a:hover{
+    color: #B00F14;
+}
+
+.coluna2{
+    color: white;
+    max-width: 250px;
+    margin-top: 52px;
+}
+
+.email p{
+    margin-top: 26px;
+}
+
+.direcionamento{
+    color: white;
+    opacity: 75%;
+    cursor: pointer;
+    max-width: 205px;
+    margin: 13px 0 15px 0;
+}
+
+.email{
+    margin-top: 1px;
+}
+
+.direcionamento a{
+    text-decoration: none;
+    color: white;
+}
+
+.edificio{
+    opacity: 75%;
+    cursor: pointer;
+    color: white;
+    margin: 19px 0 0 0;
+}
+
+.edificio a{
+    text-decoration: none;
+    color: white;
+}
+
+.phone{
+    color: white;
+    margin-top: 51px;
+}
+
+.numero{
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    margin: 0 10px 0 0; 
+}
+
+.horizontal{
+    border-bottom: 1px solid grey;
+    opacity: 50%;
+    max-width: 28cm;
+    margin-left: 8.05cm;
+}
+
+
+.copyright{
+    font-size: 11px;
+    text-align: center;
+    color: grey;
+    opacity: 40%;
+    border: 1px solid transparent;
+    margin-top: 10px;
+}
+
+@media (max-width: 720px){
+    .logo{
+        display: none;
+        max-width: 0px;
+    }
+
+    .textrodape{
+        display: none;
+    }
+
+    .numero{
+        margin: 0 50px 0 0;
+    }
+
+    .coluna2{
+        margin: 0 50px 0 0;
+    }
+
+    .coluna1{
+        margin: 0 100px 0 0;
+    }
+
+    .face{
+        left: 100%;
+        top: 82%;
+    }
+
+    .insta{
+        left: 140%;
+        top: 75%;
+    }
+
+    .link{
+        left: 180%;
+        top: 67%;
+    }
+
+    .trabalhe{
+        line-height: 15px;
+    }
+
+    .localizador{
+        line-height: 15px;
+    }
+
+    .localizador p{
+        margin-top: 0;
+    }
+
+
+}
